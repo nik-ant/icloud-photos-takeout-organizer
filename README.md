@@ -12,7 +12,7 @@
 
 ## At a glance
 
-The organizer copies media from iCloud Photos export folders or ZIP archives into a dated library. It rebuilds albums from Apple's CSV files and keeps the original export untouched. This repository contains a command-line tool; the separate [Luma app](https://github.com/nik-ant/Luma) is a native Mac, iPhone, and iPad project.
+The organizer copies media from iCloud Photos export folders or ZIP archives into a dated library. It rebuilds albums from Apple's CSV files and keeps the original export untouched.
 
 - **Browse by year:** media with a usable capture date go into `Fotos/YYYY/`.
 - **Keep albums:** album members are copied into `Albums/<album name>/`.
