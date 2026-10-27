@@ -1,11 +1,7 @@
 <div align="center">
   <h1>iCloud Photos Takeout Organizer</h1>
-  <p><strong>Turn an iCloud Photos export into a browsable local library.</strong></p>
-  <p>A small Python tool for photos, videos, Live Photos, and albums.</p>
-  <p>
-    <img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-3776ab" />
-    <img alt="Platforms: macOS, Linux, Windows" src="https://img.shields.io/badge/platforms-macOS%20%7C%20Linux%20%7C%20Windows-2878e8" />
-  </p>
+  <p>Organize an iCloud Photos export into a chronological library while preserving albums.</p>
+  <p><a href="#quick-start">Quick start</a> · <a href="#output">Output</a> · <a href="#documentation">Documentation</a></p>
 </div>
 
 ---
@@ -20,7 +16,7 @@ The organizer copies media from iCloud Photos export folders or ZIP archives int
 - **Review uncertain dates:** files without a usable embedded timestamp go into `Files Without Metadata/`.
 - **Preview first:** `--dry-run` reports the planned work without copying files.
 
-## Get started
+## Quick start
 
 Requires Python 3.10 or later. Install [ExifTool](https://exiftool.org/) to read capture dates from media and write date metadata into the copied files. Without it, files use filesystem modification times and go into `Files Without Metadata/`.
 
