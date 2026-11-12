@@ -58,7 +58,3 @@ Source files are not modified. The organizer skips CSV, AppleDouble `._*`, and o
 
 - [Usage](docs/USAGE.md) — setup, commands, options, and troubleshooting.
 - [Library behavior](docs/LIBRARY_BEHAVIOR.md) — folder layout, dates, albums, Live Photos, and safety.
-
-## Project status
-
-This is a standalone Python script for iCloud Photos exports. Run a dry run and inspect the copied library before discarding any original export.
